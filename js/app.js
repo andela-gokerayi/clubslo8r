@@ -1,8 +1,8 @@
 var app = angular.module('clubsApp', ['ngRoute', 'clubsInLagModule']);
 
-app.config(['$routeProvider','$locationProvider', function($routeProvider, $locationProvider) {
+app.config(['$routeProvider', function($routeProvider) {
 	
-	$locationProvider.html5Mode(true);
+	// $locationProvider.html5Mode(true);
 
 	$routeProvider
 
